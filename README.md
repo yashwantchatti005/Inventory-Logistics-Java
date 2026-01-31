@@ -63,7 +63,7 @@ Navigate to:
 src/inventory/MainApp.java
 Run MainApp.java as a Java Application
 
-🧠 OOP Concepts Used
+## 🧠 OOP Concepts Used
 Concept	Implementation
 Abstraction	Item abstract class
 Inheritance	RawMaterial, FinishedGoods
@@ -71,13 +71,13 @@ Polymorphism	Overridden updateStock() method
 Encapsulation	Private fields with getters
 Exception Handling	OutOfStockException
 Collections	ArrayList<Item>, ArrayList<Order>
-📊 Sample Output
+## 📊 Sample Output
 --- Inventory & Logistics Menu ---
 1. View Inventory
 2. Place Order
 3. View Placed Orders
 4. Exit
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 Database integration using JDBC & MySQL
 
 GUI using JavaFX or Swing
@@ -88,21 +88,9 @@ Delivery and shipment tracking
 
 Invoice and billing generation
 
-👨‍💻 Author
+## 👨‍💻 Author
 Yashwant Chatti
 GitHub: https://github.com/yashwantchatti005
 
-📄 License
+## 📄 License
 This project is created for learning and academic purposes.
-
-
----
-
-## 🟢 Push README to GitHub
-
-After creating `README.md`, run:
-
-```bash
-git add README.md
-git commit -m "Added README file"
-git push
