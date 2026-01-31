@@ -8,7 +8,7 @@ public class MainApp {
 
         InventoryManager manager = new InventoryManager();
         Scanner sc = new Scanner(System.in);
-
+// These are the items inside in inventory
         manager.addItem(new RawMaterial(1, "Steel", 100, 50));
         manager.addItem(new FinishedGoods(2, "Laptop", 20, 50000));
         manager.addItem(new RawMaterial(3, "Plastic", 200, 20));
@@ -28,7 +28,7 @@ public class MainApp {
             System.out.print("Enter choice: ");
 
             int choice = sc.nextInt();
-
+// switch case
             switch (choice) {
             case 1:
                 manager.showInventory();
