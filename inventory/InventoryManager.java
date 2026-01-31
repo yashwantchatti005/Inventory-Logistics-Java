@@ -6,7 +6,7 @@ import java.util.List;
 public class InventoryManager {
 
     private List<Item> items = new ArrayList<>();
-    private List<Order> orders = new ArrayList<>(); // 🔥 NEW
+    private List<Order> orders = new ArrayList<>(); 
 
     public void addItem(Item item) {
         items.add(item);
