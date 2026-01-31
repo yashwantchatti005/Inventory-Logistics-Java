@@ -28,7 +28,7 @@ public class MainApp {
             System.out.print("Enter choice: ");
 
             int choice = sc.nextInt();
-// switch case
+// switch case for generating id and quantity
             switch (choice) {
             case 1:
                 manager.showInventory();
