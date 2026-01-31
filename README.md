@@ -32,23 +32,6 @@ This project allows users to manage inventory items, place orders, track order h
 
 ---
 
-## 📂 Project Structure
-
-Inventory-Logistics-Java
-└── src
-└── inventory
-├── Item.java
-├── RawMaterial.java
-├── FinishedGoods.java
-├── Supplier.java
-├── Order.java
-├── InventoryManager.java
-├── OutOfStockException.java
-└── MainApp.java
-
-
----
-
 ## ▶️ How to Run the Project
 
 ### Using Eclipse / IntelliJ / VS Code
