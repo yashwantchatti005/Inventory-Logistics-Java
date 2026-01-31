@@ -23,7 +23,7 @@ public class MainApp {
             System.out.println("\n--- Inventory & Logistics Menu ---");
             System.out.println("1. View Inventory");
             System.out.println("2. Place Order");
-            System.out.println("3. View Placed Orders"); // 🔥 NEW
+            System.out.println("3. View Placed Orders"); 
             System.out.println("4. Exit");
             System.out.print("Enter choice: ");
 
@@ -45,7 +45,7 @@ public class MainApp {
                     Order order = new Order(101 + (int)(Math.random() * 1000), item, qty);
                     try {
                         order.processOrder();
-                        manager.addOrder(order); // 🔥 STORE ORDER
+                        manager.addOrder(order); 
                     } catch (OutOfStockException e) {
                         System.out.println(e.getMessage());
                     }
@@ -55,7 +55,7 @@ public class MainApp {
                 break;
 
             case 3:
-                manager.showOrders(); // 🔥 VIEW PLACED ITEMS
+                manager.showOrders(); 
                 break;
 
             case 4:
